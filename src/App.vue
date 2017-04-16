@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <div class="titilium">
+      <img src="./assets/logo.png" style="max-width: 30px;vertical-align: sub;">
+      <span>Vue-Prism</span>
+    </div>
     <router-view></router-view>
   </div>
 </template>
@@ -30,5 +33,9 @@ export default {
   }
   .text-left {
     text-align: left;
+  }
+
+  .titilium {
+    font-family: 'Titillium Web', sans-serif;
   }
 </style>

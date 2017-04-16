@@ -2,7 +2,9 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
-    <pre><code>
+    <div class="wrap-code text-left">
+    <pre>
+      <code class="language-js">
 export default {
   name: 'hello',
   data () {
@@ -11,7 +13,10 @@ export default {
     }
   }
 }
-    </code></pre>
+    </code>
+    </pre>
+    </div>
+
   </div>
 </template>
 

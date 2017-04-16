@@ -6,6 +6,7 @@ import router from './router'
 
 import VuePrism from 'vue-prism'
 Vue.use(VuePrism)
+import 'prismjs/themes/prism.css'
 
 Vue.config.productionTip = false
 

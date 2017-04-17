@@ -4,7 +4,7 @@
       <strong>Simple</strong> Vue.js Syntax highlighting with Prism.js
     </h1>
     <!-- Place this tag where you want the button to render. -->
-    <a class="github-button" href="https://github.com/creotip/vue-prism.js" data-icon="octicon-star" data-count-href="/creotip/vue-prism.js/stargazers" data-count-api="/repos/creotip/vue-prism.js#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star creotip/vue-prism.js on GitHub">Star</a>
+    <a class="gh-button" href="//github.com/chrisnager/simple-paper-spinner"><span class="gh-button__icon"></span>Download</a>
     <br>
     <br>
 
@@ -34,6 +34,7 @@ export default {
     color: #fff;padding: 1rem;"><code>npm install vue-prism --save-dev</code></pre>
       <br>
       <pre><code class="language-js">
+// Main file
 import Vue from 'vue'
 import VuePrism from 'vue-prism'
 Vue.use(VuePrism)
@@ -109,7 +110,5 @@ import 'prismjs/themes/prism.css'
     margin: 0 10px;
   }
 
-  a {
-    color: #42b983;
-  }
+
 </style>

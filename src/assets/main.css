@@ -1227,6 +1227,15 @@ hr {
 }
 
 
+code[class*="language-"],
+pre[class*="language-"],
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
 /*  Github button */
 
 .gh-button {

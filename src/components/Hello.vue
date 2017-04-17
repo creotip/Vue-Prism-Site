@@ -66,7 +66,7 @@ Vue.use(VuePrism)
 <style scoped>
   h1, h2 {
     font-weight: normal;
-    font-size: 1.2rem;
+    font-size: 1.2em;
   }
 
   ul {

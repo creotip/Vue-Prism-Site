@@ -8,6 +8,7 @@ import VuePrism from 'vue-prism'
 Vue.use(VuePrism)
 
 import 'normalize.css/normalize.css'
+import './assets/main.css'
 import 'prismjs/themes/prism.css'
 
 Vue.config.productionTip = false

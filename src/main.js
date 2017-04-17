@@ -6,6 +6,8 @@ import router from './router'
 
 import VuePrism from 'vue-prism'
 Vue.use(VuePrism)
+
+import 'normalize.css/normalize.css'
 import 'prismjs/themes/prism.css'
 
 Vue.config.productionTip = false

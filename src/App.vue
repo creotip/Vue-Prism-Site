@@ -2,7 +2,7 @@
   <div id="app">
     <div class="titilium">
       <img src="./assets/logo.png" style="max-width: 30px;vertical-align: sub;">
-      <span>Vue-Prism</span>
+      <span class="logo-title">Vue-Prism</span>
     </div>
     <router-view></router-view>
   </div>
@@ -37,5 +37,12 @@ export default {
 
   .titilium {
     font-family: 'Titillium Web', sans-serif;
+  }
+
+  .logo-title{
+    color: #35495e;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2rem;
   }
 </style>

@@ -49,9 +49,7 @@ Vue.use(VuePrism)
 </template>
 
 <script>
-  const componentSnippet = `
-<button v-tooltip.top-center="msg">Hover me</button>
-`
+  const componentSnippet = `<button v-tooltip.top-center="msg">Hover me</button>`
   export default {
     name: 'hello',
     data () {

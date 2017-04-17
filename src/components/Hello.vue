@@ -29,34 +29,55 @@ export default {
         Installation
       </h2>
       <pre style="background: #4c4c4c;
-    color: #fff;"><code>
-        npm install vue-prism --save-dev
-      </code></pre>
+    color: #fff;padding: 1rem;"><code>npm install vue-prism --save-dev</code></pre>
+      <br>
       <pre><code class="language-js">
 import Vue from 'vue'
 import VuePrism from 'vue-prism'
 Vue.use(VuePrism)
+
+import 'prismjs/themes/prism.css'
         </code></pre>
     </div>
     <br>
     <br>
     <div class="text-left">
       <h2>How to use</h2>
-      <pre><code class="language-html">{{componentSnippet}}</code></pre>
+      <p>Add class inside the code tag. <br>
+        Place supported language code in the <strong>language-xxxx</strong> class:</p>
+      <pre><code class="language-html">{{helloWorld}}</code></pre>
+      <br>
+      <a href="http://prismjs.com/#languages-list">List of supported languages</a>
     </div>
+    <br>
+    <br>
+    <br>
 
   </div>
 </template>
 
 <script>
-  const componentSnippet = `<button v-tooltip.top-center="msg">Hover me</button>`
+  const buttonSnippet = `<button class="btn" @click="Submit">Click me!</button>`
+  const helloWorld = `<pre>
+  <code class="language-js">
+    export default {
+      name: 'hello',
+      data () {
+      return {
+        msg: 'Welcome to Your Vue.js App'
+        }
+      }
+    }
+  </code>
+</pre>`
   export default {
     name: 'hello',
     data () {
       return {
         msg: 'Simple Vue.js Syntax highlighting with Prism.js',
         rawHtml: '<div> This is raw html</div>',
-        componentSnippet
+        buttonSnippet,
+        helloWorld
       }
     }
   }

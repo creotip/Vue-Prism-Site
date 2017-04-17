@@ -13,7 +13,7 @@
       <h2 class="titilium">
         Example
       </h2>
-      <pre><code class="language-js">
+      <pre class="language-js"><code>
 export default {
   name: 'hello',
   data () {
@@ -45,12 +45,12 @@ import 'prismjs/themes/prism.css'
     <br>
     <div class="text-left">
       <h2>How to use</h2>
-      <p>Add class inside the code tag. <br>
+      <p>Add class to the pre tag. <br>
         Place supported language code in the <strong>language-xxxx</strong> class:</p>
       <pre><code class="language-html">{{helloJS}}</code></pre>
       <pre><code class="language-html">{{helloCSS}}</code></pre>
       <br>
-      <a href="http://prismjs.com/#languages-list">List of supported languages</a>
+      <a target="_blank" href="http://prismjs.com/#languages-list">List of supported languages</a>
     </div>
 
     <br>
@@ -63,15 +63,15 @@ import 'prismjs/themes/prism.css'
 
 <script>
   const buttonSnippet = `<button class="btn" @click="Submit">Click me!</button>`
-  const helloJS = `<pre>
-  <code class="language-js">
+  const helloJS = `<pre class="language-js">
+  <code>
     export default {
       name: 'hello'
     }
   </code>
 </pre>`
-  const helloCSS = `<pre>
-  <code class="language-css">
+  const helloCSS = `<pre class="language-css">
+  <code>
     .my-class {
       background-color: red;
       margin: 0;

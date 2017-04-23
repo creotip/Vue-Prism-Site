@@ -3,9 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import VueParticles from './vue-particles'
 import VuePrism from 'vue-prism'
 Vue.use(VuePrism)
+Vue.use(VueParticles)
 
 import 'normalize.css/normalize.css'
 import 'prismjs/themes/prism.css'

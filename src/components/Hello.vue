@@ -1,5 +1,7 @@
 <template>
   <div class="hello">
+    <div id="particles-js"></div>
+
     <h1 class="titilium">
       <strong>Simple</strong> Vue.js Syntax highlighting with Prism.js
     </h1>
@@ -79,6 +81,7 @@ import 'prismjs/themes/prism.css'
     }
   </code>
 </pre>`
+
   export default {
     name: 'hello',
     data () {

@@ -4,7 +4,7 @@
       <strong>Simple</strong> Vue.js Syntax highlighting with Prism.js
     </h1>
     <!-- Place this tag where you want the button to render. -->
-    <a class="gh-button" target="_blank" href="//github.com/chrisnager/simple-paper-spinner"><span class="gh-button__icon"></span>Download</a>
+    <a class="gh-button" target="_blank" href="https://github.com/creotip/vue-prism"><span class="gh-button__icon"></span>Download</a>
     <br>
     <br>
 
